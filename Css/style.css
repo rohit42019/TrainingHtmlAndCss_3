@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+:root{
+    --light-gray : #CCCCCC;
+    --light-dark-gray: #919191;
+}
+
+/* header starts */
+.header{
+    background: url(../Images/frontImage.jpg) no-repeat center/cover;
+    height: 100vh;
+    width: 100%;;
+}
+/* navbar starts */
+.navbar{
+    background-color: white;
+    box-shadow: 0px 3px 10px var(--light-gray);
+    z-index: 100;
+}
+.navbar-brand{
+    letter-spacing: 0.2rem;
+}
+.navbar-brand:hover{
+    background-color: var(--light-gray);
+}
+.navbar-nav{
+}
+.nav-item a{
+    letter-spacing:0.2rem;
+}
+.nav-item a:hover{
+    background-color: var(--light-gray);
+}
+/* navbar ends  */
+/* header-front section starts */
+
+.front-section{
+    height: 100%;
+}
+.front-content-div{
+}
+.front-content-div h1 span{
+    background-color: rgba(0,0,0,0.75);
+}
+/* header-front section ends  */
+
+/* project part starts */
+.project-section{
+    padding-top: 4rem;
+}
+.section-heading{
+    border-bottom:1px solid var(--light-gray);
+}
+.housename{
+    background-color: black;
+    position: absolute;
+    top: 0px;
+}
+/* project-part ends  */
+
+/* about part starts */
+
+.about-section{
+    padding-top: 4rem;
+}
+.card-subtitle{
+    color: var(--light-dark-gray);
+}
+/* about part ends  */
+/* contact part starts  */
+
+.contact-section{
+    padding-top: 4rem;
+}
+.form-container form input{
+    display: block;
+    width: 100%;
+    padding: 0.7rem 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.form-container form button{
+    padding: 0.5rem 1rem;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.form-container form button:hover{
+    background-color: var(--light-gray);
+    color: black;
+}
+/* contact part ends  */
